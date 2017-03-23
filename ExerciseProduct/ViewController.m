@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CJTopScrollView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CJTopScrollView *topScrollView = [[CJTopScrollView alloc] initWithFrame:CGRectMake(0, 0, k_ScreenWidth, 100)];
+    [self.view addSubview:topScrollView];
+    
+    
 }
 
 

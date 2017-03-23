@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
+#import "CJFirstViewController.h"
+#import "CJSecondViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    nav.title = @"0";
+    nav.navigationBarHidden = NO;
+    nav.navigationBar.translucent = NO;
+    
+    CJFirstViewController *firstVC = [[CJFirstViewController alloc] init];
+    firstVC.title = @"1";
+    firstVC.view.backgroundColor = [UIColor blackColor];
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    nav1.tabBarItem.title = @"navFirst";
+    nav1.navigationBar.translucent = NO;
+    nav1.navigationBarHidden = NO;
+    
+    CJSecondViewController *secondVC = [[CJSecondViewController alloc] init];
+    secondVC.tabBarItem.title = @"second";
+    secondVC.view.backgroundColor = [UIColor grayColor];
+    
+    UITabBarController *tabbar = [[UITabBarController alloc] init];
+    tabbar.viewControllers = @[nav,nav1,secondVC];
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

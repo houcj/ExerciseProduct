@@ -15,6 +15,14 @@
 		CEBEF9DC1E835463009994C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBEF9DA1E835463009994C3 /* LaunchScreen.storyboard */; };
 		CEBEF9E71E835463009994C3 /* ExerciseProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEF9E61E835463009994C3 /* ExerciseProductTests.m */; };
 		CEBEF9F21E835463009994C3 /* ExerciseProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEF9F11E835463009994C3 /* ExerciseProductUITests.m */; };
+		CEBEFA041E835EC2009994C3 /* CJTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEFA031E835EC2009994C3 /* CJTabbarViewController.m */; };
+		CEBEFA071E836056009994C3 /* CJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEFA061E836056009994C3 /* CJFirstViewController.m */; };
+		CEBEFA0A1E836063009994C3 /* CJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEFA091E836063009994C3 /* CJSecondViewController.m */; };
+		CEBEFA0E1E837019009994C3 /* FirstVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEFA0D1E837019009994C3 /* FirstVCView.m */; };
+		CEBEFA111E837EA6009994C3 /* CJTopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEFA101E837EA6009994C3 /* CJTopScrollView.m */; };
+		CEBEFA171E83A29B009994C3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBEFA141E83A29B009994C3 /* 1.jpg */; };
+		CEBEFA181E83A29B009994C3 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBEFA151E83A29B009994C3 /* 5.jpg */; };
+		CEBEFA191E83A29B009994C3 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBEFA161E83A29B009994C3 /* 10.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		CEBEF9ED1E835463009994C3 /* ExerciseProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBEF9F11E835463009994C3 /* ExerciseProductUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseProductUITests.m; sourceTree = "<group>"; };
 		CEBEF9F31E835463009994C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBEFA021E835EC2009994C3 /* CJTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTabbarViewController.h; sourceTree = "<group>"; };
+		CEBEFA031E835EC2009994C3 /* CJTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTabbarViewController.m; sourceTree = "<group>"; };
+		CEBEFA051E836056009994C3 /* CJFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFirstViewController.h; sourceTree = "<group>"; };
+		CEBEFA061E836056009994C3 /* CJFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFirstViewController.m; sourceTree = "<group>"; };
+		CEBEFA081E836063009994C3 /* CJSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSecondViewController.h; sourceTree = "<group>"; };
+		CEBEFA091E836063009994C3 /* CJSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSecondViewController.m; sourceTree = "<group>"; };
+		CEBEFA0C1E837019009994C3 /* FirstVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVCView.h; sourceTree = "<group>"; };
+		CEBEFA0D1E837019009994C3 /* FirstVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVCView.m; sourceTree = "<group>"; };
+		CEBEFA0F1E837EA6009994C3 /* CJTopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTopScrollView.h; sourceTree = "<group>"; };
+		CEBEFA101E837EA6009994C3 /* CJTopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTopScrollView.m; sourceTree = "<group>"; };
+		CEBEFA121E837F2F009994C3 /* ExerciseProduct.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExerciseProduct.pch; sourceTree = "<group>"; };
+		CEBEFA141E83A29B009994C3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../Documents/1.jpg; sourceTree = "<group>"; };
+		CEBEFA151E83A29B009994C3 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../Documents/5.jpg; sourceTree = "<group>"; };
+		CEBEFA161E83A29B009994C3 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpg; path = ../../../../Documents/10.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +123,23 @@
 		CEBEF9CB1E835463009994C3 /* ExerciseProduct */ = {
 			isa = PBXGroup;
 			children = (
+				CEBEFA131E83A1A1009994C3 /* Image */,
+				CEBEFA0B1E836FE9009994C3 /* View */,
 				CEBEF9CF1E835463009994C3 /* AppDelegate.h */,
 				CEBEF9D01E835463009994C3 /* AppDelegate.m */,
 				CEBEF9D21E835463009994C3 /* ViewController.h */,
 				CEBEF9D31E835463009994C3 /* ViewController.m */,
+				CEBEFA051E836056009994C3 /* CJFirstViewController.h */,
+				CEBEFA061E836056009994C3 /* CJFirstViewController.m */,
+				CEBEFA081E836063009994C3 /* CJSecondViewController.h */,
+				CEBEFA091E836063009994C3 /* CJSecondViewController.m */,
+				CEBEFA021E835EC2009994C3 /* CJTabbarViewController.h */,
+				CEBEFA031E835EC2009994C3 /* CJTabbarViewController.m */,
 				CEBEF9D51E835463009994C3 /* Main.storyboard */,
 				CEBEF9D81E835463009994C3 /* Assets.xcassets */,
 				CEBEF9DA1E835463009994C3 /* LaunchScreen.storyboard */,
 				CEBEF9DD1E835463009994C3 /* Info.plist */,
+				CEBEFA121E837F2F009994C3 /* ExerciseProduct.pch */,
 				CEBEF9CC1E835463009994C3 /* Supporting Files */,
 			);
 			path = ExerciseProduct;
@@ -138,6 +169,27 @@
 				CEBEF9F31E835463009994C3 /* Info.plist */,
 			);
 			path = ExerciseProductUITests;
+			sourceTree = "<group>";
+		};
+		CEBEFA0B1E836FE9009994C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEBEFA0C1E837019009994C3 /* FirstVCView.h */,
+				CEBEFA0D1E837019009994C3 /* FirstVCView.m */,
+				CEBEFA0F1E837EA6009994C3 /* CJTopScrollView.h */,
+				CEBEFA101E837EA6009994C3 /* CJTopScrollView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CEBEFA131E83A1A1009994C3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CEBEFA141E83A29B009994C3 /* 1.jpg */,
+				CEBEFA151E83A29B009994C3 /* 5.jpg */,
+				CEBEFA161E83A29B009994C3 /* 10.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBEF9DC1E835463009994C3 /* LaunchScreen.storyboard in Resources */,
+				CEBEFA181E83A29B009994C3 /* 5.jpg in Resources */,
+				CEBEFA171E83A29B009994C3 /* 1.jpg in Resources */,
 				CEBEF9D91E835463009994C3 /* Assets.xcassets in Resources */,
+				CEBEFA191E83A29B009994C3 /* 10.jpg in Resources */,
 				CEBEF9D71E835463009994C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBEF9D41E835463009994C3 /* ViewController.m in Sources */,
+				CEBEFA0E1E837019009994C3 /* FirstVCView.m in Sources */,
 				CEBEF9D11E835463009994C3 /* AppDelegate.m in Sources */,
+				CEBEFA071E836056009994C3 /* CJFirstViewController.m in Sources */,
+				CEBEFA0A1E836063009994C3 /* CJSecondViewController.m in Sources */,
 				CEBEF9CE1E835463009994C3 /* main.m in Sources */,
+				CEBEFA111E837EA6009994C3 /* CJTopScrollView.m in Sources */,
+				CEBEFA041E835EC2009994C3 /* CJTabbarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +484,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ExerciseProduct/ExerciseProduct.pch";
 				INFOPLIST_FILE = ExerciseProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Annie.ExerciseProduct;
@@ -435,6 +497,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ExerciseProduct/ExerciseProduct.pch";
 				INFOPLIST_FILE = ExerciseProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Annie.ExerciseProduct;
@@ -507,6 +571,7 @@
 				CEBEF9F81E835463009994C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEBEF9F91E835463009994C3 /* Build configuration list for PBXNativeTarget "ExerciseProductTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +580,7 @@
 				CEBEF9FB1E835463009994C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEBEF9FC1E835463009994C3 /* Build configuration list for PBXNativeTarget "ExerciseProductUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +589,7 @@
 				CEBEF9FE1E835463009994C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
